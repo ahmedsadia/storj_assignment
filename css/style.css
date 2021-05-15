@@ -32,12 +32,14 @@ button ,.upload{
     font-size: 1rem;
     font-weight: 700;
 }
-.drop{
+.drop {
     padding: 1.25rem 4rem;
     border: 1px dashed #ddd;
-    color: #778699;
+    color: #212429;
     width: 100%;
     border-radius: .7rem;
+    font-size: .87rem;
+    font-weight: 300;
 }
 ul{
     list-style: none;
@@ -45,6 +47,7 @@ ul{
 a{
     text-decoration: none;
     color: #000;
+    font-size: .87rem;
 }
 .file_head .color, .file_head .color a{
     color: #3E84F7;
@@ -108,7 +111,31 @@ button:hover {
 }
 td.file_details {
     padding: 1.12rem 0;
+    color: #212429;
+
 }
+.pagination li {
+    padding: 1rem;
+    font-size: .87rem;
+    font-weight: 300;
+}
+.pagination li:hover {
+    color: #3E84F7;
+    font-weight: 700;
+    border-bottom: .20rem solid #3E84F7;
+    cursor: pointer;
+}
+.active {
+    color: #3E84F7;
+    font-weight: 700 !important;
+    border-bottom: .20rem solid #3E84F7;
+    cursor: pointer;
+}
+td{
+    color: #212429;
+    font-size: .87rem;
+}
+
 @media only screen and (max-width: 600px) {
     .logo img {
         width: 11rem;
