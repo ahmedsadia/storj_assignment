@@ -31,7 +31,7 @@ button ,.upload{
     cursor: pointer;
 }
 .drop{
-    padding: 3rem 4rem;
+    padding: 1.25rem 4rem;
     border: 1px dashed #ddd;
     color: #778699;
     width: 100%;
