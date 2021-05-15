@@ -150,5 +150,8 @@ td{
         padding-left: 0px;
         padding: 0 12px;
       }
+      table tr td:last-child {
+        text-align: center;
+    }
 
   }
