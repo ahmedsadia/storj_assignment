@@ -30,7 +30,7 @@ button ,.upload{
     border-radius: .4rem;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 .drop{
     padding: 1.25rem 4rem;
@@ -51,14 +51,18 @@ a{
     font-weight: 700;
 } 
 
+.file_head .color, .file_head .color a:hover{
+    color: #133E9C;
+    font-weight: 700;
+}
 .no-color{
     background-color: #0000;
     border: 2px solid #133E9C;
     color: #133E9C;
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 700;
     padding: .56rem 1.43rem;
-    font-weight: bold;
+
 }
 .file_details input[type=checkbox] {
     border: 1px solid #C5CBDB;
@@ -101,6 +105,9 @@ button:hover {
 }
 .mt-24{
     margin-top: 1.5rem;
+}
+td.file_details {
+    padding: 1.12rem 0;
 }
 @media only screen and (max-width: 600px) {
     .logo img {
